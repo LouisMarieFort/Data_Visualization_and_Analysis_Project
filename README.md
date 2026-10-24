@@ -59,9 +59,8 @@ To run this application in a deterministic, clean environment:
    ```
 
 ## Deliverables
-- **Deployed App:** [Insert Streamlit Community Cloud URL here]
-- **Repository:** [Insert GitHub URL here]
-- **Demo Video:** [Insert YouTube/Loom URL here]
+- **Deployed App:** https://louismariefort-data-visualization-and-analysis-project.streamlit.app
+- **Repository:** https://github.com/LouisMarieFort/Data_Visualization_and_Analysis_Project
 
 ## Licenses
 - **Code:** The Python code for this Streamlit application is licensed under the MIT License.
