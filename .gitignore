@@ -44,3 +44,4 @@ Thumbs.db
 desktop.ini
 
 .streamlit/secrets.toml
+*.mp4
