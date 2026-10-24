@@ -8,7 +8,7 @@ def _select_series(df: pd.DataFrame, filters, value_name, keep_flags = False,):
     required = {"geo", "TIME_PERIOD", "OBS_VALUE", *filters.keys()}
     missing = required - set(df.columns)
     if missing:
-        raise ValueError(f"Colonnes manquantes pour {value_name} : {sorted(missing)}")
+        raise ValueError(f"Missing columns for {value_name}: {sorted(missing)}")
 
     selected = df.copy()
     for column, expected in filters.items():
@@ -22,8 +22,8 @@ def _select_series(df: pd.DataFrame, filters, value_name, keep_flags = False,):
 
     if selected.empty:
         raise ValueError(
-            f"Aucune observation trouvée pour {value_name} "
-            f"avec les filtres {filters}"
+            f"No observation found for {value_name} "
+            f"with filters {filters}"
         )
 
     selected[value_name] = pd.to_numeric(
@@ -40,8 +40,8 @@ def _select_series(df: pd.DataFrame, filters, value_name, keep_flags = False,):
 
     if selected.duplicated(["geo", "year"]).any():
         raise ValueError(
-            f"Doublons pays–année dans {value_name} : "
-            "vérifie les dimensions et les filtres."
+            f"Country-year duplicates in {value_name}: "
+            "check dimensions and filters."
         )
 
     return selected

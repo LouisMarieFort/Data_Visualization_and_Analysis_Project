@@ -10,7 +10,7 @@ from utils.io import DATA_SOURCE, DATA_LICENSE
 
 STUDENT_NAME = "Louis-Marie FORT"
 STUDENT_GROUP = "Data & AI"
-GITHUB_URL = "https://github.com/LouisMarieFort"
+GITHUB_URL = "https://github.com/LouisMarieFort/Data_Visualization_and_Analysis_Project"
 
 
 st.set_page_config(
@@ -71,7 +71,7 @@ with st.sidebar:
     
 
     st.link_button(
-        "My GitHub",
+        "GitHub repository",
         GITHUB_URL,
         use_container_width=True,
     )
