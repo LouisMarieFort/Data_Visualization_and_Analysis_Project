@@ -61,6 +61,7 @@ To run this application in a deterministic, clean environment:
 ## Deliverables
 - **Deployed App:** https://louismariefort-data-visualization-and-analysis-project.streamlit.app
 - **Repository:** https://github.com/LouisMarieFort/Data_Visualization_and_Analysis_Project
+- **Presentation Video:** https://efrei365net-my.sharepoint.com/:v:/r/personal/louis-marie_fort_efrei_net/Documents/dashboard_presentation_video.mp4?d=w240fabec50154e91943c50f6f720edf3&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MVjANy
 
 ## Licenses
 - **Code:** The Python code for this Streamlit application is licensed under the MIT License.
